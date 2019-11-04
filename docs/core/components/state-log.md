@@ -109,8 +109,8 @@ Set of booking state transitions
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/units.json#/definitions/time`
+- [time](units.md) – `http://maasglobal.com/core/components/units.json#/definitions/time`
 
 #### Option 2
 
-- []() – `#/definitions/obsoleteTime`
+- [obsoleteTime](state-log.md) – `#/definitions/obsoleteTime`

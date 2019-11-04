@@ -313,12 +313,12 @@ Signature of a signed object
 
 #### Option 1
 
-- []() – `#/definitions/legCore`
+- [legCore](leg.md) – `#/definitions/legCore`
 
 #### Option 2
 
-- []() – `#/definitions/waitingLeg`
+- [waitingLeg](leg.md) – `#/definitions/waitingLeg`
 
 #### Option 3
 
-- []() – `#/definitions/transferLeg`
+- [transferLeg](leg.md) – `#/definitions/transferLeg`

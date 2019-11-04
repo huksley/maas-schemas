@@ -4,9 +4,7 @@
     "type": "object",
     "definitions": {
         "id": {
-            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/uuid",
-            "$linkVal": "uuid",
-            "$linkPath": "units.md"
+            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/uuid"
         }
     },
     "properties": {

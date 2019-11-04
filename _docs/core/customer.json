@@ -82,7 +82,9 @@
                     "type": "boolean"
                 },
                 {
-                    "$ref": "http://maasglobal.com/core/components/units.json#/definitions/isoDate"
+                    "$ref": "http://maasglobal.com/core/components/units.json#/definitions/isoDate",
+                    "$linkVal": "isoDate",
+                    "$linkPath": "units.md"
                 }
             ]
         },
@@ -93,7 +95,9 @@
                     "type": "boolean"
                 },
                 {
-                    "$ref": "http://maasglobal.com/core/components/common.json#/definitions/ssid"
+                    "$ref": "http://maasglobal.com/core/components/common.json#/definitions/ssid",
+                    "$linkVal": "ssid",
+                    "$linkPath": "common.md"
                 }
             ]
         },
@@ -127,7 +131,9 @@
                             "const": "TOKEN"
                         },
                         "tokenId": {
-                            "$ref": "http://maasglobal.com/core/components/fare.json#/definitions/tokenId"
+                            "$ref": "http://maasglobal.com/core/components/fare.json#/definitions/tokenId",
+                            "$linkVal": "tokenId",
+                            "$linkPath": "fare.md"
                         },
                         "amount": {
                             "type": [

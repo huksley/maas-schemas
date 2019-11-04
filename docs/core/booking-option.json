@@ -100,9 +100,7 @@
         },
         "customer": {
             "description": "MaaS booking customer",
-            "$ref": "http://maasglobal.com/core/customer.json",
-            "$linkVal": "customer",
-            "$linkPath": "customer.md"
+            "$ref": "http://maasglobal.com/core/customer.json"
         },
         "leg": {
             "type": "object",

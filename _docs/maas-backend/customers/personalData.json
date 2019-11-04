@@ -54,7 +54,9 @@
                     "type": "boolean"
                 },
                 {
-                    "$ref": "http://maasglobal.com/core/components/units.json#/definitions/isoDate"
+                    "$ref": "http://maasglobal.com/core/components/units.json#/definitions/isoDate",
+                    "$linkVal": "isoDate",
+                    "$linkPath": "units.md"
                 }
             ]
         },
@@ -65,7 +67,9 @@
                     "type": "boolean"
                 },
                 {
-                    "$ref": "http://maasglobal.com/core/components/common.json#/definitions/ssid"
+                    "$ref": "http://maasglobal.com/core/components/common.json#/definitions/ssid",
+                    "$linkVal": "ssid",
+                    "$linkPath": "common.md"
                 }
             ]
         },

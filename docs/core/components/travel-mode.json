@@ -3,19 +3,29 @@
     "description": "Transfer modes used for MaaS internal services",
     "anyOf": [
         {
-            "$ref": "#/definitions/waitingMode"
+            "$ref": "#/definitions/waitingMode",
+            "$linkVal": "waitingMode",
+            "$linkPath": "travel-mode.md"
         },
         {
-            "$ref": "#/definitions/transferMode"
+            "$ref": "#/definitions/transferMode",
+            "$linkVal": "transferMode",
+            "$linkPath": "travel-mode.md"
         },
         {
-            "$ref": "#/definitions/personalMode"
+            "$ref": "#/definitions/personalMode",
+            "$linkVal": "personalMode",
+            "$linkPath": "travel-mode.md"
         },
         {
-            "$ref": "#/definitions/publicTransitMode"
+            "$ref": "#/definitions/publicTransitMode",
+            "$linkVal": "publicTransitMode",
+            "$linkPath": "travel-mode.md"
         },
         {
-            "$ref": "#/definitions/privateTransitMode"
+            "$ref": "#/definitions/privateTransitMode",
+            "$linkVal": "privateTransitMode",
+            "$linkPath": "travel-mode.md"
         }
     ],
     "definitions": {

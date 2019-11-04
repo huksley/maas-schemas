@@ -10,9 +10,7 @@
                 "coupons",
                 "changeState"
             ],
-            "additionalProperties": true,
-            "$linkVal": "subscriptionBase",
-            "$linkPath": "subscription.md"
+            "additionalProperties": true
         },
         "subscriptionCreatePayload": {
             "$ref": "#/definitions/subscriptionBase",
@@ -20,16 +18,12 @@
                 "plan",
                 "addons"
             ],
-            "additionalProperties": true,
-            "$linkVal": "subscriptionBase",
-            "$linkPath": "subscription.md"
+            "additionalProperties": true
         },
         "subscriptionUpdatePayload": {
             "$ref": "#/definitions/subscriptionBase",
             "required": [],
-            "additionalProperties": true,
-            "$linkVal": "subscriptionBase",
-            "$linkPath": "subscription.md"
+            "additionalProperties": true
         },
         "subscriptionBase": {
             "type": "object",
@@ -218,9 +212,7 @@
             "pattern": "^[^\\s\\/]{1,50}$"
         },
         "price": {
-            "$ref": "http://maasglobal.com/core/components/cost.json",
-            "$linkVal": "cost",
-            "$linkPath": "cost.md"
+            "$ref": "http://maasglobal.com/core/components/cost.json"
         },
         "terms": {
             "description": "Terms related to this subscription",

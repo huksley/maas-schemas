@@ -26,7 +26,9 @@
         "fromName": {
             "anyOf": [
                 {
-                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/placeName"
+                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/placeName",
+                    "$linkVal": "placeName",
+                    "$linkPath": "address.md"
                 },
                 {
                     "type": "string",
@@ -38,7 +40,9 @@
             "anyOf": [
                 {
                     "description": "Componentized from address",
-                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/componentAddress"
+                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/componentAddress",
+                    "$linkVal": "componentAddress",
+                    "$linkPath": "address.md"
                 },
                 {
                     "type": "string",
@@ -55,7 +59,9 @@
         "to": {
             "anyOf": [
                 {
-                    "$ref": "http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString"
+                    "$ref": "http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString",
+                    "$linkVal": "shortLocationString",
+                    "$linkPath": "units-geo.md"
                 },
                 {
                     "type": "string",
@@ -66,7 +72,9 @@
         "toName": {
             "anyOf": [
                 {
-                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/placeName"
+                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/placeName",
+                    "$linkVal": "placeName",
+                    "$linkPath": "address.md"
                 },
                 {
                     "type": "string",
@@ -77,7 +85,9 @@
         "toAddress": {
             "anyOf": [
                 {
-                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/componentAddress"
+                    "$ref": "http://maasglobal.com/core/components/address.json#/definitions/componentAddress",
+                    "$linkVal": "componentAddress",
+                    "$linkPath": "address.md"
                 },
                 {
                     "type": "string",

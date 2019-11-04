@@ -77,10 +77,14 @@ All items must be of the type: Unknown type ``.
   "type": "array",
   "items": [
     {
-      "$ref": "#/definitions/latitude"
+      "$ref": "#/definitions/latitude",
+      "$linkVal": "latitude",
+      "$linkPath": "units-geo.md"
     },
     {
-      "$ref": "#/definitions/longitude"
+      "$ref": "#/definitions/longitude",
+      "$linkVal": "longitude",
+      "$linkPath": "units-geo.md"
     }
   ],
   "additionalItems": false,
@@ -230,10 +234,14 @@ All items must be of the type: Unknown type ``.
   "type": "array",
   "items": [
     {
-      "$ref": "#/definitions/latitude"
+      "$ref": "#/definitions/latitude",
+      "$linkVal": "latitude",
+      "$linkPath": "units-geo.md"
     },
     {
-      "$ref": "#/definitions/longitude"
+      "$ref": "#/definitions/longitude",
+      "$linkVal": "longitude",
+      "$linkPath": "units-geo.md"
     }
   ],
   "additionalItems": false,

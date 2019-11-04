@@ -100,9 +100,7 @@
     ],
     "definitions": {
         "id": {
-            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/uuid",
-            "$linkVal": "uuid",
-            "$linkPath": "units.md"
+            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/uuid"
         },
         "fares": {
             "type": "array",
@@ -113,14 +111,10 @@
             }
         },
         "cost": {
-            "$ref": "http://maasglobal.com/core/components/cost.json",
-            "$linkVal": "cost",
-            "$linkPath": "cost.md"
+            "$ref": "http://maasglobal.com/core/components/cost.json"
         },
         "configurator": {
-            "$ref": "http://maasglobal.com/core/components/configurator.json",
-            "$linkVal": "configurator",
-            "$linkPath": "configurator.md"
+            "$ref": "http://maasglobal.com/core/components/configurator.json"
         },
         "tspId": {
             "type": "string",
@@ -225,9 +219,7 @@
             "additionalProperties": false
         },
         "terms": {
-            "$ref": "http://maasglobal.com/core/components/terms.json",
-            "$linkVal": "terms",
-            "$linkPath": "terms.md"
+            "$ref": "http://maasglobal.com/core/components/terms.json"
         },
         "token": {
             "description": "The validity token (such as booking ID, travel ticket etc.) that MaaS clients will display to validate the trip when starting the leg.",

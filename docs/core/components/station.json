@@ -15,29 +15,19 @@
             "type": "string"
         },
         "location": {
-            "$ref": "http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString",
-            "$linkVal": "shortLocationString",
-            "$linkPath": "units-geo.md"
+            "$ref": "http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString"
         },
         "address": {
-            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/address",
-            "$linkVal": "address",
-            "$linkPath": "address.md"
+            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/address"
         },
         "city": {
-            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/city",
-            "$linkVal": "city",
-            "$linkPath": "address.md"
+            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/city"
         },
         "country": {
-            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/country",
-            "$linkVal": "country",
-            "$linkPath": "address.md"
+            "$ref": "http://maasglobal.com/core/components/address.json#/definitions/country"
         },
         "agencyId": {
-            "$ref": "http://maasglobal.com/core/components/common.json#/definitions/agencyId",
-            "$linkVal": "agencyId",
-            "$linkPath": "common.md"
+            "$ref": "http://maasglobal.com/core/components/common.json#/definitions/agencyId"
         },
         "openingHours": {
             "description": "Opening hour of the station, object format is left for TSP to decide",

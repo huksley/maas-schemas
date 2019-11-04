@@ -128,7 +128,7 @@ https://en.wikipedia.org/wiki/World_Geodetic_System
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/address.json#/definitions/componentAddress`
+- [componentAddress](address.md) – `http://maasglobal.com/core/components/address.json#/definitions/componentAddress`
 
 #### Option 2
 
@@ -148,7 +148,7 @@ https://en.wikipedia.org/wiki/World_Geodetic_System
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/address.json#/definitions/placeName`
+- [placeName](address.md) – `http://maasglobal.com/core/components/address.json#/definitions/placeName`
 
 #### Option 2
 
@@ -231,7 +231,8 @@ POSIX time in milliseconds, https://en.wikipedia.org/wiki/Unix_time
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString`
+- [shortLocationString](units-geo.md) –
+  `http://maasglobal.com/core/components/units-geo.json#/definitions/shortLocationString`
 
 #### Option 2
 
@@ -251,7 +252,7 @@ POSIX time in milliseconds, https://en.wikipedia.org/wiki/Unix_time
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/address.json#/definitions/componentAddress`
+- [componentAddress](address.md) – `http://maasglobal.com/core/components/address.json#/definitions/componentAddress`
 
 #### Option 2
 
@@ -271,7 +272,7 @@ POSIX time in milliseconds, https://en.wikipedia.org/wiki/Unix_time
 
 #### Option 1
 
-- []() – `http://maasglobal.com/core/components/address.json#/definitions/placeName`
+- [placeName](address.md) – `http://maasglobal.com/core/components/address.json#/definitions/placeName`
 
 #### Option 2
 

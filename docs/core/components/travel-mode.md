@@ -14,20 +14,20 @@ Transfer modes used for MaaS internal services
 
 #### Option 1
 
-- []() – `#/definitions/waitingMode`
+- [waitingMode](travel-mode.md) – `#/definitions/waitingMode`
 
 #### Option 2
 
-- []() – `#/definitions/transferMode`
+- [transferMode](travel-mode.md) – `#/definitions/transferMode`
 
 #### Option 3
 
-- []() – `#/definitions/personalMode`
+- [personalMode](travel-mode.md) – `#/definitions/personalMode`
 
 #### Option 4
 
-- []() – `#/definitions/publicTransitMode`
+- [publicTransitMode](travel-mode.md) – `#/definitions/publicTransitMode`
 
 #### Option 5
 
-- []() – `#/definitions/privateTransitMode`
+- [privateTransitMode](travel-mode.md) – `#/definitions/privateTransitMode`

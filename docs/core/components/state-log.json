@@ -18,10 +18,14 @@
                 "timestamp": {
                     "anyOf": [
                         {
-                            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/time"
+                            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/time",
+                            "$linkVal": "time",
+                            "$linkPath": "units.md"
                         },
                         {
-                            "$ref": "#/definitions/obsoleteTime"
+                            "$ref": "#/definitions/obsoleteTime",
+                            "$linkVal": "obsoleteTime",
+                            "$linkPath": "state-log.md"
                         }
                     ]
                 },

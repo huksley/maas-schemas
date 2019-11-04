@@ -121,9 +121,7 @@
             }
         },
         "identityId": {
-            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/identityId",
-            "$linkVal": "identityId",
-            "$linkPath": "units.md"
+            "$ref": "http://maasglobal.com/core/components/units.json#/definitions/identityId"
         },
         "paymentMethodResponse": {
             "description": "The payment (gateway) method info; no credit cards here",

@@ -106,7 +106,7 @@ The customer's date of birth or boolean indicating if the value is already in DB
 
 #### Option 2
 
-- []() – `http://maasglobal.com/core/components/units.json#/definitions/isoDate`
+- [isoDate](units.md) – `http://maasglobal.com/core/components/units.json#/definitions/isoDate`
 
 ## email
 
@@ -227,7 +227,7 @@ Social Security ID
 
 #### Option 2
 
-- []() – `http://maasglobal.com/core/components/common.json#/definitions/ssid`
+- [ssid](common.md) – `http://maasglobal.com/core/components/common.json#/definitions/ssid`
 
 ## subscriberType
 
