@@ -359,12 +359,8 @@ First or last name of a customer (e.g. John)
 
 `string`
 
-- maximum length: 255 characters All instances must conform to this regular expression (test examples
-  [here](<https://regexr.com/?expression=%5E(%3F%3A%5Cp%7BL%7D)%2B(%3F%3A%5B%60&#39;%C2%B4%5C-%5C.%2C%5D%3F%5Cs%3F(%3F%3A%5Cp%7BL%7D)*)*%24>)):
-
-```regex
-^(?:\p{L})+(?:[`'´\-\.,]?\s?(?:\p{L})*)*$
-```
+- minimum length: 1 characters
+- maximum length: 255 characters
 
 ## id
 
@@ -442,12 +438,8 @@ First or last name of a customer (e.g. John)
 
 `string`
 
-- maximum length: 255 characters All instances must conform to this regular expression (test examples
-  [here](<https://regexr.com/?expression=%5E(%3F%3A%5Cp%7BL%7D)%2B(%3F%3A%5B%60&#39;%C2%B4%5C-%5C.%2C%5D%3F%5Cs%3F(%3F%3A%5Cp%7BL%7D)*)*%24>)):
-
-```regex
-^(?:\p{L})+(?:[`'´\-\.,]?\s?(?:\p{L})*)*$
-```
+- minimum length: 1 characters
+- maximum length: 255 characters
 
 ## modified
 

@@ -33,8 +33,8 @@ http://maasglobal.com/core/stop.json
 
 ## address
 
-Encoded address components in form
-country:Finland|state:Uusimaa|city:Helsinki|zipCode:00100|streetName:Ludviginkatu|streetNumber:6
+Encoded address components. Check the regexr examples. Check https://regexr.com/4ofcq. In streetNumber, there are 2
+dashes - they have 2 different unicodes, do not remove
 
 `address`
 
@@ -45,13 +45,6 @@ country:Finland|state:Uusimaa|city:Helsinki|zipCode:00100|streetName:Ludviginkat
 ### address Type
 
 `string`
-
-All instances must conform to this regular expression (test examples
-[here](<https://regexr.com/?expression=%5E(%3F%3A(%3F%3A(%3F%3Acountry%3A(%3F%3A%5Cp%7BL%7D%7C%5Cs%7C&#39;)%2B)%7C(%3F%3Astate%3A(%3F%3A%5Cp%7BL%7D%7C%5B%2C%5C.%3A%5C-%60&#39;%C2%B4%5Cs%5D)%2B)%7C(%3F%3Acity%3A(%3F%3A%5Cp%7BL%7D%7C%5B%2C%5C.%3A%5C-%60&#39;%C2%B4%5Cs%5D)%2B)%7C(%3F%3AzipCode%3A(%3F%3A%5Ba-zA-Z0-9%20%5D%7B3%2C10%7D%7C(%3F%3A%5Cp%7BL%7D%7C%5Cd)%7B2%2C4%7D(%5Cs(%3F%3A%5Cp%7BL%7D%7C%5Cd)%7B2%2C4%7D)%3F))%7C(%3F%3AstreetName%3A%5B%5E%7C%5D%2B)%7C(%3F%3AstreetNumber%3A%5Cd%2B))%5C%7C%3F)%7B4%2C6%7D%24>)):
-
-```regex
-^(?:(?:(?:country:(?:\p{L}|\s|')+)|(?:state:(?:\p{L}|[,\.:\-`'´\s])+)|(?:city:(?:\p{L}|[,\.:\-`'´\s])+)|(?:zipCode:(?:[a-zA-Z0-9 ]{3,10}|(?:\p{L}|\d){2,4}(\s(?:\p{L}|\d){2,4})?))|(?:streetName:[^|]+)|(?:streetNumber:\d+))\|?){4,6}$
-```
 
 ## facilities
 
@@ -258,8 +251,8 @@ Geofencing zone defined by provider that the station is within
 
 #### address
 
-Encoded address components in form
-country:Finland|state:Uusimaa|city:Helsinki|zipCode:00100|streetName:Ludviginkatu|streetNumber:6
+Encoded address components. Check the regexr examples. Check https://regexr.com/4ofcq. In streetNumber, there are 2
+dashes - they have 2 different unicodes, do not remove
 
 `address`
 
@@ -269,13 +262,6 @@ country:Finland|state:Uusimaa|city:Helsinki|zipCode:00100|streetName:Ludviginkat
 ##### address Type
 
 `string`
-
-All instances must conform to this regular expression (test examples
-[here](<https://regexr.com/?expression=%5E(%3F%3A(%3F%3A(%3F%3Acountry%3A(%3F%3A%5Cp%7BL%7D%7C%5Cs%7C&#39;)%2B)%7C(%3F%3Astate%3A(%3F%3A%5Cp%7BL%7D%7C%5B%2C%5C.%3A%5C-%60&#39;%C2%B4%5Cs%5D)%2B)%7C(%3F%3Acity%3A(%3F%3A%5Cp%7BL%7D%7C%5B%2C%5C.%3A%5C-%60&#39;%C2%B4%5Cs%5D)%2B)%7C(%3F%3AzipCode%3A(%3F%3A%5Ba-zA-Z0-9%20%5D%7B3%2C10%7D%7C(%3F%3A%5Cp%7BL%7D%7C%5Cd)%7B2%2C4%7D(%5Cs(%3F%3A%5Cp%7BL%7D%7C%5Cd)%7B2%2C4%7D)%3F))%7C(%3F%3AstreetName%3A%5B%5E%7C%5D%2B)%7C(%3F%3AstreetNumber%3A%5Cd%2B))%5C%7C%3F)%7B4%2C6%7D%24>)):
-
-```regex
-^(?:(?:(?:country:(?:\p{L}|\s|')+)|(?:state:(?:\p{L}|[,\.:\-`'´\s])+)|(?:city:(?:\p{L}|[,\.:\-`'´\s])+)|(?:zipCode:(?:[a-zA-Z0-9 ]{3,10}|(?:\p{L}|\d){2,4}(\s(?:\p{L}|\d){2,4})?))|(?:streetName:[^|]+)|(?:streetNumber:\d+))\|?){4,6}$
-```
 
 #### facilities
 
