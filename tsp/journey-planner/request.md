@@ -113,6 +113,84 @@ Componentized from address
 
 `string`
 
+##### fromAddress Examples
+
+```json
+state:Tōkyō-to|district:Kanda Nishikichō 3-chōme|streetNumber:4-パレステュディオ御茶ノ水駿河台参番館|zipCode:101-0054|city:Chiyoda-City|country:Japan
+```
+
+```json
+streetName:Tarkk'ampujänkätu|city:Helsinki|country:Finland|state:Uusimaa|streetNumber:1|zipCode:00100|district:Tapiola
+```
+
+```json
+streetName:Hämeentie Töölöntori Lähettilääntie Tarkk'ampujänkätu
+```
+
+```json
+streetName:Brädgårdsgatan
+```
+
+```json
+streetName:Żółkiewskiego
+```
+
+```json
+streetName:Øster Allé
+```
+
+```json
+streetName:شارع حمدان بن محمد
+```
+
+```json
+streetName:Karl-Marx-Straße
+```
+
+```json
+streetName:Küçük Ayasofya|city:İstanbul|district:Fatih
+```
+
+```json
+streetName:11 Avenue d’Ostende
+```
+
+```json
+streetName:Küçük Ayasofya, Küçük Ayasofya Cami Sk.
+```
+
+```json
+streetName:Kasumi'gaseki
+```
+
+```json
+streetName:St Martin's Lane
+```
+
+```json
+country:Åland
+```
+
+```json
+country:Puerto Rico
+```
+
+```json
+country:français
+```
+
+```json
+country:skandinavisk
+```
+
+```json
+streetNumber:1-1
+```
+
+```json
+streetNumber:1/2-d2
+```
+
 #### fromName
 
 Place name (given in autocomplete)
@@ -219,6 +297,84 @@ Componentized to address
 ##### toAddress Type
 
 `string`
+
+##### toAddress Examples
+
+```json
+state:Tōkyō-to|district:Kanda Nishikichō 3-chōme|streetNumber:4-パレステュディオ御茶ノ水駿河台参番館|zipCode:101-0054|city:Chiyoda-City|country:Japan
+```
+
+```json
+streetName:Tarkk'ampujänkätu|city:Helsinki|country:Finland|state:Uusimaa|streetNumber:1|zipCode:00100|district:Tapiola
+```
+
+```json
+streetName:Hämeentie Töölöntori Lähettilääntie Tarkk'ampujänkätu
+```
+
+```json
+streetName:Brädgårdsgatan
+```
+
+```json
+streetName:Żółkiewskiego
+```
+
+```json
+streetName:Øster Allé
+```
+
+```json
+streetName:شارع حمدان بن محمد
+```
+
+```json
+streetName:Karl-Marx-Straße
+```
+
+```json
+streetName:Küçük Ayasofya|city:İstanbul|district:Fatih
+```
+
+```json
+streetName:11 Avenue d’Ostende
+```
+
+```json
+streetName:Küçük Ayasofya, Küçük Ayasofya Cami Sk.
+```
+
+```json
+streetName:Kasumi'gaseki
+```
+
+```json
+streetName:St Martin's Lane
+```
+
+```json
+country:Åland
+```
+
+```json
+country:Puerto Rico
+```
+
+```json
+country:français
+```
+
+```json
+country:skandinavisk
+```
+
+```json
+streetNumber:1-1
+```
+
+```json
+streetNumber:1/2-d2
+```
 
 #### toName
 
