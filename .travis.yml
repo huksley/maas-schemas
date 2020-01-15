@@ -28,7 +28,7 @@ jobs:
         - yarn --cwd maas-schemas docs
         - echo Deploying docs to GitHub pages of ${TRAVIS_REPO_SLUG}
         - git remote add origin-pages https://${GITHUB_API_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git
-        - yarn --cwd maas-schemas deploy -o origin-pages
+        - yarn --cwd maas-schemas gh-pages -o origin-pages
       before_deploy:
         - cd maas-schemas
       deploy:
